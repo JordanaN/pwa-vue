@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Document</title>
+	<link rel="manifest" href="manifest.json">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<script>
+		if ('serviceWorker' in navigator ){
+			navigator.serviceWorker
+			   .register('./service-worker.js')
+			   .then(function(reg){
+			   		console.log("registered")
+			   })
+			   .catch(function(err){
+			   		console.warn("erro: ", err);
+			   })
+		}
+	</script>
+
+</body>
+</html>
+
+
+
+
+

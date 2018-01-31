@@ -1,0 +1,20 @@
+[
+    {
+        "key":"Content-Type",
+        "value":"application/json",
+    },
+    {
+        "key": "Authorization",
+        "value": "key=AAAAMscMe44:APA91bGRyxbFBTTyN8YYaK8Nklfd0zV68iTcqSQL32CepstQMQmVDdAjYQRjjc7z2oYW0bc8CLLMuOEUXQ_Euezkb8MKblAXK6DfMEJ6zfpT6jrAqVms0t7GuO4VDQG02nXYdEYHCUUh"
+    },
+    {
+        "to": "frGnEHME_n8:APA91bEvbAfqOFZFn9qAQaRRtuqQtv7IR3BrsXpypEHgZzhn5KtBYEe3OREJ9k3lcjkdF15dQRadNldRzSC3uGs10ehSjq0Uijn1rZ84YNWoO-hohwXga8wOV5oif90rGCMctKwnJNfL",
+        "notification": {
+            "title": "teste de notificação",
+            "body": "teste para notificar app-pwa",
+            "click_action": "http://localhost:8080",
+            "icon": "http://localhost:8080/static/img/icons/android-chrome-192x192.png"
+        }
+    }
+
+]
